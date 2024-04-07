@@ -64,3 +64,25 @@
   gap: 10px;
 }
 
+.delete-button {
+  background-color: white;
+  border-radius: 5px;
+  color: red;
+}
+
+.delete-button:hover {
+  color: white;
+  background-color: red;
+}
+
+#place-order-button {
+  background-color: white;
+  border-radius: 5px;
+  color: green;
+  font-weight: bold;
+}
+
+#place-order-button:hover {
+  color: white;
+  background-color: green;
+}

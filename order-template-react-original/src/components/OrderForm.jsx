@@ -42,7 +42,7 @@ export default function OrderForm() {
                 ))}
                 <button className="addItem" type="button" onClick={handleAddItem}>Add Item</button>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" id="place-order-button">Place Order</button>
         </form>
     )
 }

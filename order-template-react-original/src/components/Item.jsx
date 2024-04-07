@@ -19,6 +19,11 @@ export default function Item({ index, item, onChange }) {
                 <option value="Orange">Orange</option>
                 <option value="Banana">Banana</option>
                 <option value="Apple">Apple</option>
+                {/*
+                This is where we will need to pull the products from database
+                or the Square API to get the inventory.
+                I put a few sample products just for testing
+            */}
             </select>
             <label>Quantity</label>
             <input type="number"
