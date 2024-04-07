@@ -15,7 +15,7 @@ export default function Item({ index, item, onChange }) {
     return (
         <div className="item-container">
             <label>Item</label>
-            <select value={item.product} onChange={handleproductChange}>
+            <select value={item.product} onChange={handleproductChange} className="product-name-input">
                 <option value="Orange">Orange</option>
                 <option value="Banana">Banana</option>
                 <option value="Apple">Apple</option>
@@ -28,6 +28,7 @@ export default function Item({ index, item, onChange }) {
             <label>Quantity</label>
             <input type="number"
                 value={item.quantity}
+                className="product-quantity-input"
                 onChange={handleQuantityChange}
             />
         </div>

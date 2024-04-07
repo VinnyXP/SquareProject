@@ -40,7 +40,7 @@ export default function OrderForm() {
                         <button className="delete-button" type="button" onClick={() => deleteItem(index)}>Remove Product</button>
                     </div>
                 ))}
-                <button className="addItem" type="button" onClick={handleAddItem}>Add Item</button>
+                <button id="add-item-button" type="button" onClick={handleAddItem}>Add Item</button>
             </div>
             <button type="submit" id="place-order-button">Place Order</button>
         </form>
