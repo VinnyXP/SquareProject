@@ -105,3 +105,10 @@ label {
 .product-name-input {
   height: 30px;
 }
+
+.login-input-div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
