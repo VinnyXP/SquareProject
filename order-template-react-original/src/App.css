@@ -112,3 +112,25 @@ label {
   text-align: left;
   gap: 10px;
 }
+
+/*
+Create Account Items
+*/
+
+#create-account-form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-account-form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+}
+
+.create-account-form-input {
+  height: 20px;
+}

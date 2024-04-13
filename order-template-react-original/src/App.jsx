@@ -4,11 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import OrderForm from './components/OrderForm'
 import LoginPage from './components/LoginPage'
+import CreateAccount from './components/CreateAccount'
 
 function App() {
 
   return (
     <>
+      <CreateAccount />
       <LoginPage />
       <OrderForm />
       <div className="card">
