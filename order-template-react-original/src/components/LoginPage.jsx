@@ -28,6 +28,7 @@ export default function LoginPage() {
                         value={email}
                         onChange={(ev) => setEmail(ev.target.value)}
                         className={'inputBox'}
+                        required
                     />
                     <label className="errorLabel">{emailError}</label>
                 </div>
@@ -38,6 +39,7 @@ export default function LoginPage() {
                         value={password}
                         onChange={(ev) => setPassword(ev.target.value)}
                         className={'inputBox'}
+                        required
                     />
                     <label className="errorLabel">{passwordError}</label>
                 </div>
