@@ -7,6 +7,7 @@ import LoginPage from './components/LoginPage'
 import CreateAccount from './components/CreateAccount'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Dashboard from './components/Dashboard'
+import RestaurantDashboard from './components/RestaurantDashboard'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
