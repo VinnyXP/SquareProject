@@ -9,7 +9,7 @@ export default function OrderInfo({ product, quantity, restaurantName }) {
 
                 <p>Product: {product}</p>
 
-                <p>Quantity</p>
+                <p>Quantity {quantity}</p>
 
             </div>
         </>
