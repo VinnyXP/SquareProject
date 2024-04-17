@@ -20,7 +20,7 @@ export default function LoginPage() {
             <Router>
                 <Routes>
                     <Route
-                        path="/RestuarantDashboard"
+                        path="/RestaurantDashboard"
                         element={!isLoggedIn ? <OrderForm /> : <Navigate to="/LoginPage" />}
                     />
                     <Route>
