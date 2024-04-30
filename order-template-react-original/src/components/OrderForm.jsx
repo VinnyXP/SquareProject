@@ -19,6 +19,7 @@ export default function OrderForm() {
         e.preventDefault();
         // DB/API call here to deal with the data
         // return <OrderInfo quantiy={} product={}/>
+        // return <Order quantiy={} product={}/>
     }
 
     const deleteItem = (index) => {

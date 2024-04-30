@@ -33,8 +33,8 @@ import ProductInfo from './ProductInfo';
 } */
 
 class InventoryPage extends React.Component {
-    // props contains any data passed to it from a parent component    
-    // ?can we just use item instead of product? since item is already useed in the Item component?
+// props contains any data passed to it from a parent component    
+// ?can we just use item instead of product? since item is already useed in the Item component?
 
     constructor(props) {
         super(props);
@@ -44,14 +44,13 @@ class InventoryPage extends React.Component {
             // Can we get this from the API instead of hardcoding it?
 
             // Products = API/DataBase call
-            //API call to get the inventory
         };
     }
 
     render() {
         return (
             <div>
-                
+            /* API call to get the inventory */
                 {this.state.products.map((product, index) => (
                     <ProductInfo key={index} product={product.name} quantity={product.quantity} />
                 ))}

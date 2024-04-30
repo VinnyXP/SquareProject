@@ -12,7 +12,6 @@ export default function Orderhistory({ restaurantName }) {
             <div>
                 {this.state.orders.map((order, index) => (
                     <OrderInfo key={index} product={order.product} quantity={order.quantity} restaurantName={restaurantName} />
-                    // insert Button to be able to make another order of this exact type
                 ))}
             </div>
         </>
