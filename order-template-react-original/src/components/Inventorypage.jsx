@@ -1,9 +1,36 @@
 // contain info about product info componets  
 // product name, inventory, quantity 
 
-//** 
+import React from 'react';
+import ProductInfo from './ProductInfo';
+
+
+
 // add function to whatever item gets increased or decreased, will be API call to update the inventory
-//**
+// Solution I found online for updating inventory , could be used in this component if accepted
+
+/* updateInventory = (product, quantity) => {
+    // API call to update the inventory
+    // This is a placeholder, replace with API call
+    fetch('your-api-url', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            product: product,
+            quantity: quantity
+        }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Update the state with the new inventory data
+        this.setState({ products: data });
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+} */
 
 class InventoryPage extends React.Component {
     // props contains any data passed to it from a parent component    

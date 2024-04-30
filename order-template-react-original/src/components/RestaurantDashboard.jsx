@@ -1,5 +1,5 @@
 import { useState } from "react";
-// will contina a bunch of order info componets 
+// will contain a bunch of order info componets 
 // API database call that will matchup with restaunt anme ion current section
 // Should be personalized to each restaurant 
 
